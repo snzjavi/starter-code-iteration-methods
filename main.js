@@ -7,10 +7,7 @@
 
 // Append the katas to this element:
 const main = document.querySelector('main')
-const h1 = document.createElement('h1')
 const isActive = users.filter(user => user.isActive === true)
-
-main.append(JSON.stringify(isActive))
 
 function printKata (kataNumber, object) {
     // For the usage of the DETAILS and SUMMARY tags
